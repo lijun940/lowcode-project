@@ -1,0 +1,80 @@
+{
+  "name": "icejs-demo-app",
+  "version": "0.1.5",
+  "description": "轻量级模板，使用 JavaScript，仅包含基础的 Layout。",
+  "dependencies": {
+    "@alifd/fusion-ui": "2.0.2",
+    "@alifd/layout": "2.0.12",
+    "@alifd/next": "1.25.23",
+    "@alifd/theme-design-pro": "^0.x",
+    "@alilc/lowcode-datasource-engine": "^1.0.0",
+    "@alilc/lowcode-materials": "1.0.7",
+    "@alilc/lowcode-react-renderer": "^1.1.7",
+    "@ice/store": "^1.4.3",
+    "@loadable/component": "^5.15.2",
+    "intl-messageformat": "^9.3.6",
+    "moment": "^2.24.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^5.2.1",
+    "@alilc/lowcode-datasource-fetch-handler": "^1.0.1",
+    "@alilc/lowcode-plugin-code-editor": "^1.0.3",
+    "@alilc/lowcode-plugin-code-generator": "^1.0.4",
+    "@alilc/lowcode-plugin-components-pane": "^2.0.0",
+    "@alilc/lowcode-plugin-datasource-pane": "^1.0.9",
+    "@alilc/lowcode-plugin-inject": "^1.2.1",
+    "@alilc/lowcode-plugin-manual": "^1.0.4",
+    "@alilc/lowcode-plugin-schema": "^1.0.2",
+    "@alilc/lowcode-plugin-simulator-select": "^1.0.2",
+    "@alilc/lowcode-plugin-undo-redo": "^1.0.0",
+    "@alilc/lowcode-plugin-zh-en": "^1.0.0",
+    "@alilc/lowcode-plugin-set-ref-prop": "^1.0.1",
+    "@alilc/lowcode-setter-behavior": "^1.0.0",
+    "@alilc/lowcode-setter-title": "^1.0.2",
+    "antd": "^4.21.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@ice/spec": "^1.0.0",
+    "build-plugin-fusion": "^0.1.0",
+    "build-plugin-moment-locales": "^0.1.0",
+    "eslint": "^6.0.1",
+    "ice.js": "^1.0.0",
+    "stylelint": "^13.2.0",
+    "@alib/build-scripts": "^0.1.18",
+    "@alilc/lowcode-engine": "^1.1.2",
+    "@alilc/lowcode-engine-ext": "^1.0.0",
+    "@alilc/lowcode-types": "^1.1.1",
+    "@types/events": "^3.0.0",
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "@types/streamsaver": "^2.0.0",
+    "@types/uuid": "^8.3.4",
+    "build-plugin-react-app": "^1.1.2",
+    "fs-extra": "^10.0.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0"
+  },
+  "scripts": {
+    "start": "icejs start",
+    "build": "icejs build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "ideMode": {
+    "name": "ice-react"
+  },
+  "iceworks": {
+    "type": "react",
+    "adapter": "adapter-react-v3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.xxx.com/msd/leak-scan/tree/master"
+  },
+  "private": true,
+  "originTemplate": "@alifd/scaffold-lite-js"
+}
